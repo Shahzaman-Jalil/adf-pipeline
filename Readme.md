@@ -125,7 +125,7 @@ Dynamically selects and processes files based on naming conventions:
 | 3 | **Copy Activity** | Copies matched files to the `reporting` container |
 | 4 | **Execute Pipeline** | Invokes the `transformCSV` data flow for transformation |
 
-![OnlySelectedFiles](<img width="947" height="346" alt="OnlySelectedFiles" src="https://github.com/user-attachments/assets/8aed9cd4-356e-49c1-a920-ee633a54e176" />
+![OnlySelectedFiles](https://github.com/user-attachments/assets/8aed9cd4-356e-49c1-a920-ee633a54e176>
 )
 
 > **Other pipeline files** (`mypipeline.json`, `pipeline1.json`, `transfer.json`, `linked_pipeline.json`, `VarPipeline.json`) are learning/experimental pipelines created during development and are not part of the core production flow.
@@ -171,7 +171,7 @@ filter1             ← row-level condition filtering
 | **Alter Rows** | Defines row-level insert, upsert, and delete policies |
 | **Sink** | Writes transformed output to the `reporting` container |
 
-![transformCSV Data Flow](<img width="1418" height="375" alt="transformCSV_dataflow" src="https://github.com/user-attachments/assets/45f302df-5ac1-4c73-b890-894fbce1ed25" />
+![transformCSV Data Flow](https://github.com/user-attachments/assets/45f302df-5ac1-4c73-b890-894fbce1ed25>
 )
 
 <br>
