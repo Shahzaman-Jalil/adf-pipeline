@@ -92,7 +92,7 @@ Both `pipelinemanager` and `OnlySelectedFiles` are executed sequentially by `Pro
 ### `ProdPipeline` — Master Orchestrator
 The entry point, triggered on a **schedule**. Executes two child pipelines sequentially using the **Execute Pipeline** activity with *Wait on Completion* enabled.
 
-![ProdPipeline]()
+![ProdPipeline](https://github.com/user-attachments/assets/3b71f1d8-799f-4c4f-893e-9574cbe7be9f)
 
 ---
 
@@ -105,8 +105,7 @@ Handles raw data ingestion and source file lifecycle:
 | 2 | **Delete** | Removes the file from `source` after successful copy *(move pattern)* |
 | 3 | **Execute Pipeline** | Triggers `pipelineGIT` to pull data from GitHub |
 
-![pipelinemanager](https://github.com/user-attachments/assets/8258da11-85cb-4cc8-8e7a-dbe010524c3a
-)
+![pipelinemanager](https://github.com/user-attachments/assets/8258da11-85cb-4cc8-8e7a-dbe010524c3a)
 
 ---
 
@@ -125,10 +124,7 @@ Dynamically selects and processes files based on naming conventions:
 | 3 | **Copy Activity** | Copies matched files to the `reporting` container |
 | 4 | **Execute Pipeline** | Invokes the `transformCSV` data flow for transformation |
 
-![OnlySelectedFiles](https://github.com/user-attachments/assets/8aed9cd4-356e-49c1-a920-ee633a54e176>
-)
-
-> **Other pipeline files** (`mypipeline.json`, `pipeline1.json`, `transfer.json`, `linked_pipeline.json`, `VarPipeline.json`) are learning/experimental pipelines created during development and are not part of the core production flow.
+![OnlySelectedFiles](https://github.com/user-attachments/assets/8aed9cd4-356e-49c1-a920-ee633a54e176)
 
 <br>
 
@@ -171,8 +167,7 @@ filter1             ← row-level condition filtering
 | **Alter Rows** | Defines row-level insert, upsert, and delete policies |
 | **Sink** | Writes transformed output to the `reporting` container |
 
-![transformCSV Data Flow](https://github.com/user-attachments/assets/45f302df-5ac1-4c73-b890-894fbce1ed25>
-)
+![transformCSV Data Flow](https://github.com/user-attachments/assets/45f302df-5ac1-4c73-b890-894fbce1ed25)
 
 <br>
 
