@@ -92,8 +92,7 @@ Both `pipelinemanager` and `OnlySelectedFiles` are executed sequentially by `Pro
 ### `ProdPipeline` — Master Orchestrator
 The entry point, triggered on a **schedule**. Executes two child pipelines sequentially using the **Execute Pipeline** activity with *Wait on Completion* enabled.
 
-![ProdPipeline](<img width="1012" height="372" alt="ProdPipeline" src="https://github.com/user-attachments/assets/b8e37f16-961a-4f93-9c6b-2631a5deebb9" />
-)
+![ProdPipeline]()
 
 ---
 
@@ -106,7 +105,7 @@ Handles raw data ingestion and source file lifecycle:
 | 2 | **Delete** | Removes the file from `source` after successful copy *(move pattern)* |
 | 3 | **Execute Pipeline** | Triggers `pipelineGIT` to pull data from GitHub |
 
-![pipelinemanager](<img width="1069" height="356" alt="pipelinemanager" src="https://github.com/user-attachments/assets/8258da11-85cb-4cc8-8e7a-dbe010524c3a" />
+![pipelinemanager](https://github.com/user-attachments/assets/8258da11-85cb-4cc8-8e7a-dbe010524c3a
 )
 
 ---
