@@ -275,7 +275,7 @@ Click **Publish All** in ADF Studio, then trigger `ProdPipeline` manually or wai
 **Shah Zaman Jalil**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shahzaman--Jalil-181717?style=flat&logo=github)](https://github.com/Shahzaman-Jalil)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahzaman-jalil-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/shah-zaman-jalil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shah%20Zaman%20Jalil-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/shahzaman-jalil)
 
 ---
 
