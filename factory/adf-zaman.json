@@ -1,0 +1,15 @@
+{
+	"name": "adf-zaman",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4acf58dd-cf77-4432-a3b2-b4dc1371a45c",
+		"tenantId": "75df096c-8b72-48e4-9b91-cbf79d87ee3a"
+	}
+}
