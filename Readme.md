@@ -92,7 +92,7 @@ Both `pipelinemanager` and `OnlySelectedFiles` are executed sequentially by `Pro
 ### `ProdPipeline` — Master Orchestrator
 The entry point, triggered on a **schedule**. Executes two child pipelines sequentially using the **Execute Pipeline** activity with *Wait on Completion* enabled.
 
-![ProdPipeline](<img width="1012" height="372" alt="ProdPipeline" src="https://github.com/user-attachments/assets/ddd96b71-6e22-4b6d-8927-9a518c55a281" />
+![ProdPipeline](<img width="1012" height="372" alt="ProdPipeline" src="https://github.com/user-attachments/assets/b8e37f16-961a-4f93-9c6b-2631a5deebb9" />
 )
 
 ---
