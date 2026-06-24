@@ -1,4 +1,4 @@
-# 🔷 Azure Data Factory — End-to-End Pipeline Project
+# 🔷 Azure Data Factory — End-to-End Pipeline
 
 > A production-style data engineering project built on **Azure Data Factory** and **Azure Blob Storage** — demonstrating real-world pipeline orchestration, metadata-driven file processing, and multi-branch CSV transformation at scale.
 
@@ -279,4 +279,4 @@ Click **Publish All** in ADF Studio, then trigger `ProdPipeline` manually or wai
 
 ---
 
-*Built as part of a structured Azure Data Engineering learning curriculum — **Phase 2: Cloud Pipelines & Batch Processing***
+*Learning project created while exploring Azure Data Factory concepts such as Execute Pipeline, Get Metadata, ForEach, Data Flows, and scheduled triggers.*
